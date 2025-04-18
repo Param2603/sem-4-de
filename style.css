@@ -91,7 +91,7 @@ body {
 
 .box {
     width: 40%;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     border: 1px solid gray;
     margin-left: 25px;
     margin-right: 25px;
@@ -117,7 +117,17 @@ body {
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
+    border: none;
 }
+
+#icon {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+
 .box button:focus{
     background-color: rgba(255, 255, 250, 0.1);
 }
