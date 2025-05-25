@@ -39,6 +39,10 @@ body {
     gap: 25px;
 }
 
+.span{
+    cursor: pointer;
+}
+
 .nav-links a {
     color: white;
     text-decoration: none;
@@ -130,8 +134,9 @@ body {
 button span img{
     border-radius:50%;
 }
+
 .box button:focus{
-    background-color: greenyellow;
+    background-color: #00ff00;
 }
 
 .iframe {
